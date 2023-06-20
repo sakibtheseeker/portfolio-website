@@ -96,3 +96,19 @@ box-shadow: 0 4px 6px rgba(0,1,1,1);
 
 }
 }
+
+
+
+.statistics_title
+{
+  text-align: center;
+}
+
+.statistics_subtitle
+{
+  text-align: center;
+}
+.statistics_container{
+  display: flex;
+  justify-content: center;
+}
