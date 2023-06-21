@@ -1,6 +1,6 @@
 
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 8px;
 }
 
 /* Track */
@@ -98,16 +98,18 @@ box-shadow: 0 4px 6px rgba(0,1,1,1);
 }
 
 
+/* ===== Statistics ===== */
 
-.statistics_title
-{
+.statistics_title{
   text-align: center;
+  margin: 20px;
 }
 
-.statistics_subtitle
-{
+.statistics_subtitle{
   text-align: center;
+  margin: 60px;
 }
+
 .statistics_container{
   display: flex;
   justify-content: center;
