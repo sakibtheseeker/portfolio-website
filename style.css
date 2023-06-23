@@ -169,7 +169,8 @@ width: 7rem;
 /* ====== ABOUT ====== */
 
 .about_container{
-
+margin-bottom: 30px;
+margin-top: 30px;
 }
 
 .about_img {
@@ -234,17 +235,26 @@ font-size: 20px;
 }
 
 /* ====== Other Profiles ====== */
+
 .other_profiles {
  display: flex;
  justify-content: center;
 }
 
+.other_profiles_img{
+  display: flex;
+  margin: 15px;
+}
+
 /* ====== QUALIFICATION ====== */
+
 .qualification_tabs {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: var(--mb-2);
-  margin-top: 100px;
+  margin-top: 80px;
+  font-family: sans-serif;
+  font-size: 1.125rem;
 }
 
 .qualification_button {
@@ -263,14 +273,15 @@ font-size: 20px;
 }
 
 .qualification_data {
-  display: grid;
-  grid-template-columns: 1fr max-content 1fr;
-  column-gap: 1.5rem;
+  
+  text-align: center;
+  justify-content: center;
 }
 
 .qualification_title {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
+  justify-content: left;
 }
 
 .qualification_subtitle {
@@ -312,6 +323,18 @@ font-size: 20px;
   color: var(--first-color);
 }
 
+.profile_img{
+display: flex;
+margin: 10px;
+}
+
+.about_subtitle{
+  text-align: center;
+  margin: 20px;
+  font-family: sans-serif;
+  font-size: 1.125rem;
+}
+
 
 
 /* ===== Statistics ===== */
@@ -328,7 +351,18 @@ font-size: 20px;
   font-size: 1.125rem;
 }
 
+.statistics_data{
+  margin: 20px;
+  flex-direction: column;
+}
+
 .statistics_container{
   display: flex;
+  
   justify-content: center;
+  margin: 20px;
+}
+.statistics_section{
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
