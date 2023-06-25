@@ -169,7 +169,7 @@ width: 7rem;
 /* ====== ABOUT ====== */
 
 .about_container{
-margin-bottom: 30px;
+margin-bottom: 35px;
 margin-top: 30px;
 }
 
@@ -229,10 +229,6 @@ font-size: 20px;
   text-align: center;
 }
 
-.about_buttons {
-  display: flex;
-  justify-content: center;
-}
 
 /* ====== Other Profiles ====== */
 
@@ -257,25 +253,11 @@ font-size: 20px;
   font-size: 1.125rem;
 }
 
-.qualification_button {
-  font-size: var(--h3-font-size);
-  font-weight: var(--font-medium);
-  cursor: pointer;
-}
-
-.qualification_button:hover {
-  color: var(--first-color);
-}
-
-.qualification_icon {
-  font-size: 1.8rem;
-  margin-right: var(--mb-0-25);
-}
-
 .qualification_data {
   
   text-align: center;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .qualification_title {
@@ -295,33 +277,6 @@ font-size: 20px;
   color: var(--text-color-light);
 }
 
-.qualification_rounder {
-  display: inline-block;
-  width: 13px;
-  height: 13px;
-  background-color: var(--first-color);
-  border-radius: 50%;
-}
-
-.qualification_line {
-  display: block;
-  width: 1px;
-  height: 100%;
-  background-color: var(--first-color);
-  transform: translate(6px, -7px);
-}
-
-.qualification [data-content] {
-  display: none;
-}
-
-.qualification_active[data-content] {
-  display: block;
-}
-
-.qualification_button.qualification_active {
-  color: var(--first-color);
-}
 
 .profile_img{
 display: flex;
@@ -358,11 +313,83 @@ margin: 10px;
 
 .statistics_container{
   display: flex;
-  
   justify-content: center;
   margin: 20px;
 }
+
 .statistics_section{
   margin-top: 40px;
   margin-bottom: 40px;
 }
+
+/* ========= Projects ===========*/
+
+
+/*==================== PROJECTS ====================*/
+.portfolio_container {
+  overflow: initial;
+}
+
+.portfolio_content {
+  padding: 0 1.5rem;
+}
+
+.portfolio_img {
+  height: 200px;
+  border-radius: 0.5rem;
+  justify-self: center;
+  object-fit: cover;
+}
+
+.portfolio_title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+
+.portfolio_description {
+  margin-bottom: var(--mb-0-75);
+}
+
+.portfolio_data .button {
+  padding: var(--mb-0-5) var(--mb-1) var(--mb-0-5);
+  margin-top: var(--mb-1)
+}
+
+.portfolio_button:hover .button_icon {
+  transform: translateX(0.25rem);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  content: '';
+  color: var(--first-color);
+}
+
+.swiper-portfolio-icon {
+  font-size: 2rem;
+  color: var(--first-color);
+}
+
+.swiper-button-prev {
+  left: -0.5rem;
+}
+
+.swiper-button-next {
+  right: -0.5rem;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets {
+  bottom: -2.5rem;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--first-color);
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination-bullet {
+  outline: none;
+}
+
+
