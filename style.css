@@ -332,6 +332,7 @@ margin: 10px;
 
 .portfolio_content {
   padding: 0 1.5rem;
+
 }
 
 .portfolio_img {
@@ -339,6 +340,7 @@ margin: 10px;
   border-radius: 0.5rem;
   justify-self: center;
   object-fit: cover;
+  
 }
 
 .portfolio_title {
@@ -393,3 +395,25 @@ margin: 10px;
 }
 
 
+/* ===== Buttons ===== */
+.button {
+  display: inline-block;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: var(--mb-1);
+  border-radius: 0.5rem;
+  font-weight: var(--font-medium);
+  transition: 0.5s;
+  margin-right: var(--mb-0-5);
+}
+
+.button:hover {
+  background-color: var(--first-color-alt);
+  transform: scale(1.05);
+}
+
+.button_icon {
+  font-size: 1.25rem;
+  margin-left: var(--mb-0-5);
+  transition: 0.3s;
+}
