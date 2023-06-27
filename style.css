@@ -332,7 +332,6 @@ margin: 10px;
 
 .portfolio_content {
   padding: 0 1.5rem;
-
 }
 
 .portfolio_img {
@@ -340,7 +339,6 @@ margin: 10px;
   border-radius: 0.5rem;
   justify-self: center;
   object-fit: cover;
-  
 }
 
 .portfolio_title {
