@@ -4,7 +4,7 @@
 :root {
     --header-height: 3rem;
 
-    /* ========== Colors ========== */
+    /* =========== Colors ========== */
     /* Change favourite color */
     --hue-color: 0;
     /* purple: 250, red:0, olive:50, green:142, blue:230, pink:340 */
@@ -119,14 +119,11 @@ height: 340px;
   animation-fill-mode: forwards;
   transform: translateY(-3px);
   border-radius: 50%;
-  
 } 
 @keyframes icon-animation{
 
 100%{
-
 box-shadow: 0 4px 6px rgba(0,1,1,1);
-
 }
 }
 
