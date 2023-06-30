@@ -360,7 +360,7 @@ margin: 10px;
 .swiper-button-prev::after,
 .swiper-button-next::after {
   content: '';
-  color: var(--first-color);
+  color: #212529;
 }
 
 .swiper-portfolio-icon {
