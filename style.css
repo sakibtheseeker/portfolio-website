@@ -186,8 +186,8 @@ margin-top: 30px;
 
 .about_description {
   text-align: justify,center;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
 font-size: 20px;
    
 }
@@ -325,6 +325,7 @@ margin: 10px;
 /*==================== PROJECTS ====================*/
 .portfolio_container {
   overflow: initial;
+  margin-top: 50px;
 }
 
 .portfolio_content {
@@ -332,7 +333,7 @@ margin: 10px;
 }
 
 .portfolio_img {
-  height: 200px;
+  height: 300px;
   border-radius: 0.5rem;
   justify-self: center;
   object-fit: cover;
@@ -411,4 +412,16 @@ margin: 10px;
   font-size: 1.25rem;
   margin-left: var(--mb-0-5);
   transition: 0.3s;
+}
+
+/* =========== Layout ========== */
+.container {
+  max-width: 900px;
+  margin-left: var(--mb-1-5);
+  margin-right: var(--mb-1-5);
+}
+
+.grid {
+  display: grid;
+  gap: 1.0rem;
 }
