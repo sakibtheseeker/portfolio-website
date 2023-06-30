@@ -55,6 +55,8 @@
     --z-modal: 1000;
 }
 
+
+
 /* ====== Scrollbar ====== */
 
 ::-webkit-scrollbar {
@@ -72,6 +74,7 @@
   background:#6c757d; 
   border-radius: 50px;
 }
+
 
 /* ====== Introduction ====== */
 
@@ -126,6 +129,7 @@ height: 340px;
 box-shadow: 0 4px 6px rgba(0,1,1,1);
 }
 }
+
 
 
 /*  ====== Skills ====== */ 
@@ -238,6 +242,7 @@ font-size: 20px;
   display: flex;
   margin: 15px;
 }
+
 
 /* ====== QUALIFICATION ====== */
 
