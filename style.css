@@ -107,6 +107,7 @@
   animation-duration: 300ms;
   animation-fill-mode: forwards;
 } 
+
 @keyframes card2-animation{
 
 100%{
@@ -169,7 +170,7 @@ width: 7rem;
 /* ===== About me ===== */
 
 
-/* ====== ABOUT ====== */
+/* ====== About Section ====== */
 
 .about_container{
 margin-bottom: 35px;
@@ -198,39 +199,6 @@ font-size: 20px;
    
 }
 
-.about_info {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: var(--mb-2-5);
-}
-
-.about_info>div {
-  padding: var(--mb-0-5) var(--mb-1-5) var(--mb-0-5);
-  border: 1px solid transparent;
-  border-radius: 0.75rem;
-  transition: 0.5s;
-}
-
-.about_info>div:hover {
-  border: 1px solid var(--first-color);
-  cursor: pointer;
-}
-
-.about_info-title {
-  font-size: var(--h2-font-size);
-  font-weight: var(--font-semi-bold);
-  color: var(--title-color);
-}
-
-.about_info-name {
-  font-size: var(--smaller-font-size);
-}
-
-.about_info-title,
-.about_info-name {
-  display: block;
-  text-align: center;
-}
 
 
 /* ====== QUALIFICATION ====== */
@@ -295,47 +263,14 @@ margin: 10px;
  }
 
 
-/* ===== Statistics Section ===== */
-
-.section_title{
-  text-align: center;
-  margin: 20px;
-}
-
-.section_subtitle{
-  text-align: center;
-  margin: 60px;
-  font-family: sans-serif;
-  font-size: 1.125rem;
-}
-
-.statistics_data{
-  margin: 20px;
-  flex-direction: column;
-}
-
-.statistics_container{
-  display: flex;
-  justify-content: center;
-  margin: 20px;
-}
-
-.statistics_section{
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
 /* ========= Projects ===========*/
 
 
 /*==================== PROJECTS ====================*/
+
 .portfolio_container {
   overflow: initial;
   margin-top: 50px;
-}
-
-.portfolio_content {
-  padding: 0 1.5rem;
 }
 
 .portfolio_img {
@@ -343,6 +278,16 @@ margin: 10px;
   border-radius: 0.5rem;
   justify-self: center;
   object-fit: cover;
+}
+
+
+.portfolio_content {
+  padding: 0 1.5rem;
+}
+
+.portfolio_data .button {
+  padding: var(--mb-0-5) var(--mb-1) var(--mb-0-5);
+  margin-top: var(--mb-1)
 }
 
 .portfolio_title {
@@ -354,10 +299,6 @@ margin: 10px;
   margin-bottom: var(--mb-0-75);
 }
 
-.portfolio_data .button {
-  padding: var(--mb-0-5) var(--mb-1) var(--mb-0-5);
-  margin-top: var(--mb-1)
-}
 
 .portfolio_button:hover .button_icon {
   transform: translateX(0.25rem);
@@ -394,6 +335,37 @@ margin: 10px;
 .swiper-button-next,
 .swiper-pagination-bullet {
   outline: none;
+}
+
+
+/* ===== Statistics Section ===== */
+
+.statistics_section{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.section_title{
+  text-align: center;
+  margin: 20px;
+}
+
+.section_subtitle{
+  text-align: center;
+  margin: 60px;
+  font-family: sans-serif;
+  font-size: 1.125rem;
+}
+
+.statistics_container{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.statistics_data{
+  margin: 20px;
+  flex-direction: column;
 }
 
 
