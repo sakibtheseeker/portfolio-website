@@ -76,6 +76,8 @@
 }
 
 
+
+
 /* ====== Introduction ====== */
 
 .card2{
@@ -231,29 +233,7 @@ font-size: 20px;
 }
 
 
-/* ====== Other Profiles ====== */
-
-.other_profiles {
- display: flex;
- justify-content: center;
-}
-
-.other_profiles_img{
-  display: flex;
-  margin: 15px;
-}
-
-
 /* ====== QUALIFICATION ====== */
-
-.qualification_tabs {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: var(--mb-2);
-  margin-top: 80px;
-  font-family: sans-serif;
-  font-size: 1.125rem;
-}
 
 .qualification_data {
   
@@ -279,22 +259,43 @@ font-size: 20px;
   color: var(--text-color-light);
 }
 
+.qualification_tabs {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: var(--mb-2);
+  margin-top: 80px;
+  font-family: sans-serif;
+  font-size: 1.125rem;
+}
+
 
 .profile_img{
 display: flex;
 margin: 10px;
 }
 
-.about_subtitle{
-  text-align: center;
-  margin: 20px;
-  font-family: sans-serif;
-  font-size: 1.125rem;
-}
+/* ========= Other Profiles ========== */
 
 
+.other_profiles {
+  display: flex;
+  justify-content: center;
+ }
+ 
+ .other_profiles_img{
+   display: flex;
+   margin: 15px;
+ }
+ 
+ .about_subtitle{
+   text-align: center;
+   margin: 20px;
+   font-family: sans-serif;
+   font-size: 1.125rem;
+ }
 
-/* ===== Statistics ===== */
+
+/* ===== Statistics Section ===== */
 
 .section_title{
   text-align: center;
